@@ -8,7 +8,9 @@
 
 Clone o repositório
 
-```https://github.com/deniscoelho-js/portfolio_02.git```
+```
+$ git clone https://github.com/deniscoelho-js/portfolio_02.git
+```
 
 Siga os passos abaixo
 
