@@ -1,0 +1,44 @@
+.navigation {
+  z-index: 10;
+  position: fixed;
+  bottom:20px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+@media (min-width:1024px) {
+  .navigation {
+    width:400px;
+    position: static;
+    margin-top:20px;
+  }
+}
+
+.float {
+  background:white;
+  width:calc(100% - 60px);
+  padding:10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:65px;
+}
+
+.icon {
+  width:30px;
+}
+
+.text {
+  color: black;
+  font-weight: 600;
+  font-size:12px;
+}
